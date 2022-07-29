@@ -48,12 +48,44 @@ To get a local copy up and running follow these simple example steps.
 2. Install NPM packages and navigate to
    ```sh
    npm install
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+## Usage
+It is important install all before. If you already installed all and you want to use another NPM package, make sure to remove node_module and then use your favourite NPM package 
+
+### Dev
+To work and run the project
+
+1. Navigate to the folder
+   ```sh
    cd react-ts-eslint-tailwind
    ```
-3. To run 
-   ```js
+2. Start server
+   ```sh
    npm run dev
    ```
+
+### Build 
+1. Build project 
+   ```sh
+   npm run build
+   ```
+2. Preview build
+   ```sh
+   npm run preview
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+## Roadmap
+- [ ] Add Changelog
+- [ ] Add React Router
+- [ ] Add Github pages to deploy demo
+- [ ] Add trick to deploy SPA with routes https://github.com/rafgraph/spa-github-pages
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
